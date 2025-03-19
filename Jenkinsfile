@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "24mcr124/docker-app:latest"  // Change this to your registry
         CONTAINER_NAME = "docker-running-app"
-        REGISTRY_CREDENTIALS = "dockerhub-senthil"  // Jenkins credentials ID
+        REGISTRY_CREDENTIALS = "dockerhub-24mcr124"  // Jenkins credentials ID
     }
 
     stages {
